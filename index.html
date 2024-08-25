@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <form>
+        <label for="first name">First Name:</label>
+        <input type="text" id="firstname" placeholder="Enter your first name" size="50" required>
+        <br>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Enter your last name" size="50" required>
+        <br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" required> 
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <label for="date of bitrh">Date of Birth:</label>
+        <input type="date" id="dateofbirth">      
+        <br>
+        <label for="file">File:</label>
+        <input type="file" id="file"  multiple required>
+        <br>
+        <label for="country">Country:</label>
+        <select name="Country" class="form-control" id="Country" required>
+            <option value="AFG"> Afghanistan</option>
+            <option value="BRB">Barbados</option>
+            <option value="COL"> Columbia</option>
+            <option value="COG"> Congo</option>
+            <option value="CRI"> Costa Rica</option>
+            <option value="CUB"> Cuba</option>
+            <option value="CYP"> Cyprus</option>
+            <option value="EGY"> Egypt</option>
+            <option value="FRA"> France</option>
+            <option value="GEO"> Georgia</option>
+            <option value="GHA"> Ghana</option>
+            <option value="IRQ"> Iraq</option>
+            <option value="ISR"> Israel</option>
+            <option value="ITA"> Italy</option>
+            <option value="JAM"> Jamaica</option>
+            <option value="NGR"> Nigeria</option>
+            <option value="PAN"> Panama</option>
+            <option value="PER"> Peru</option>
+            <option value="PHL"> Philippines</option>       
+            <option value="US">United States</option>
+            <option value="UK">United Kingdom</option>
+        </select>
+        <br>
+        <div class="tacbox">
+            <input id="checkbox" type="checkbox">
+            <label for="checkbox">I agree 
+            <a href="terms-and-conditions-template.docx">Terms and Conditions</a> </label>
+        </div>
+        <input type="submit" value="SUBMIT">  
+    </form>
+</body>
+</html>
